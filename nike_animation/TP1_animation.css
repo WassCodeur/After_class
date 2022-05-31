@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Prompt-ExtraBoldItalic ;
+    src: url(/assets/font/Prompt-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Prompt-Bold;
+    src: url(/assets/font/Prompt-Bold.ttf);
+}
+body{
+    background: #202020;
+}
+main{
+    display: inline-block;
+    position: relative;
+    border: 1px solid white;
+    background: #272727;
+    border-radius: 10px;
+    display: inline-block;
+    width: 370px;
+    margin-left:250px;
+    margin-bottom: px;
+    overflow: hidden;
+    color: red;
+    padding-bottom: 200px;
+}
+.Nike_vert_citron{
+    display: inline-block;
+    position: relative;
+    right: 70px;
+    top: 150px;
+    font-family:Prompt-ExtraBoldItalic ;
+    box-sizing: border-box;
+    font-size: 230px;
+    color: #a1ef33;
+    margin-left: 0;
+    margin-right: 0;
+}
+.transparent{
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 518px;
+    background-color: rgba(245, 222, 179, 0.4);
+
+}
+
+.rond{
+    position: absolute;
+    top: -100px;
+    right: -110px;
+    padding: 195px;
+    background: #a1ef33;
+
+    border-radius: 50%;
+}
+.shoe{
+    position: absolute;
+    bottom: 210px;
+    left: 8px;
+    transform: rotate(-25deg);
+}
+.Nike_Shoes{
+    position: absolute;
+    bottom: 100px;
+    right: 90px;
+    font-family: Prompt-Bold;
+    font-size: 35px;
+    color: white;
+}
+.size{
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    margin-left: 65px;
+}
+.color{
+    color: white;
+    position: absolute;
+    bottom: -99px;
+    right: 90px;
+}
+.btn_buy button{
+    position: absolute;
+    bottom: -170px;
+    color: black;
+    margin-left: 100px;
+    padding: 10px 35px 10px 35px;
+    font-size: large;
+    font-family: Prompt-Bold;
+    border-radius: 5px;
+}
+.number{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left:10px;
+    padding: 7px;
+    background: #fdfdfa;
+    color: black;
+}
+.text_size{
+    margin-right: 7px;
+    font-size: 25px;
+}
+
+.color_text{
+    margin-right: 4px;
+    font-size: 20px;
+}
+.green_white{
+    margin-left:10px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 50%;
+    background:#a2ea2c ;
+}
+.blue_white{
+    margin-left:10px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 50%;
+    background: #15b9ea;
+}
+.red_white{
+    margin-left:10px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 50%;
+    background: #ce065e;
+}
+main:hover .Nike_Shoes{
+        position: absolute;
+        bottom: 230px;
+        right: 90px;
+        font-family: Prompt-Bold;
+        font-size: 35px;
+        color: white;
+
+}
+main:hover .shoe{
+    position: absolute;
+    bottom: 345px;
+    left: 25px;
+
+}
+main:hover .rond{
+    position: absolute;
+    top: -290px;
+    right: -130px;
+    padding: 260px;
+}
+main:hover .size{
+    position: absolute;
+    bottom: 190px;
+}
+main:hover .color{
+    position: absolute;
+    bottom: 130px;
+    right: 90px;
+}
+main:hover .btn_buy button{
+    position: absolute;
+    bottom: 70px;
+
+}
