@@ -3,11 +3,11 @@
 }
 @font-face {
     font-family:Prompt-ExtraBoldItalic ;
-    src: url(/assets/font/Prompt-ExtraBoldItalic.ttf);
+    src: url(assets/font/Prompt-ExtraBoldItalic.ttf);
 }
 @font-face {
     font-family: Prompt-Bold;
-    src: url(/assets/font/Prompt-Bold.ttf);
+    src: url(assets/font/Prompt-Bold.ttf);
 }
 body{
     background: #202020;
@@ -20,8 +20,8 @@ main{
     border-radius: 10px;
     display: inline-block;
     width: 370px;
-    margin-left:250px;
-    margin-bottom: px;
+    margin-left:400px;
+    margin-top: 10px;
     overflow: hidden;
     color: red;
     padding-bottom: 200px;
@@ -42,11 +42,11 @@ main{
     position: absolute;
     top: 1px;
     bottom: 1px;
-    border: 1px solid white;
+    border: none;
     border-radius: 10px;
     width: 100%;
     padding-top: 518px;
-    background-color: rgba(245, 222, 179, 0.4);
+    background-color: rgba(255, 255, 255, 0.09);
 
 }
 
@@ -94,6 +94,7 @@ main{
     font-size: large;
     font-family: Prompt-Bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 .number{
     border: 1px solid white;
@@ -164,4 +165,7 @@ main:hover .btn_buy button{
     position: absolute;
     bottom: 70px;
 
+}
+@keyframes identifier {
+    
 }
